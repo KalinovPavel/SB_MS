@@ -17,50 +17,39 @@ public class User {
     @Column(name = "id", nullable = false)
     private Integer id;
 
-    @Lob
     @Column(name = "name", nullable = false)
     private String name;
 
-    @Lob
     @Column(name = "surname", nullable = false)
     private String surname;
 
-    @Lob
     @Column(name = "middle_name", nullable = false)
     private String middleName;
 
-    @Lob
     @Column(name = "gender", nullable = false)
     private String gender;
 
-    @Lob
     @Column(name = "city", nullable = false)
     private String city;
 
-    @Lob
     @Column(name = "description", nullable = false)
     private String description;
 
     @Column(name = "birth_date", nullable = false)
     private LocalDate birthDate;
 
-    @Lob
     @Column(name = "nickname", nullable = false)
     private String nickname;
 
-    @Lob
     @Column(name = "email", nullable = false)
     private String email;
 
-    @Lob
     @Column(name = "phone", nullable = false)
     private String phone;
 
-    @Lob
     @Column(name = "avatar", nullable = false)
     private String avatar;
 
-    @Lob
     @Column(name = "subscriptions", nullable = false)
     private String subscriptions;
 
